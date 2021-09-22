@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.bd{
+    position: relative;
+    width: auto;
+    height: 770px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    padding: 5px 50px;
+}
+.searchInputBox{
+    padding: 0px 100px 0px 100px;
+}
+.top_items{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0px 120px;
+}
+.top_bar{
+    padding: 10px 0px ;
+}
+.top_bar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btnnav {
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(141.48deg, rgba(255, 255, 255, 0.39) 2.86%, rgba(255, 255, 255, 0.21) 98.22%); 
+    backdrop-filter: blur(10px);
+    text-align: center;
+    margin: 0px 50px;
+    padding: 10px;
+    text-decoration: none;
+    float: right;
+}
+.btnnav:hover{
+    background-color: white;
+    color: black;
+}
+.input-box {
+    width: 100%;
+    background: linear-gradient(90.07deg, rgba(255, 255, 255, 0.3) 98.81%, rgba(255, 255, 255, 0.3) 98.81%);
+    backdrop-filter: blur(10px);
+    border: none;
+    outline: none;
+    color: #020202;
+    font-size: 1.4rem;
+    height: 50px;
+    border-radius: 15px;
+    padding:  6px;
+    text-align: center;
+}
+.input-box:focus {
+    background-color: rgba(255,255,255);
+}
+.mainbd{
+    padding: 50px;
+    margin: 50px 600px auto 200px;
+    background: linear-gradient(141.48deg, rgba(255, 255, 255, 0.39) 2.86%, rgba(255, 255, 255, 0.21) 98.22%); 
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+} 
+.weather_td{
+    position: absolute;
+    width: auto;
+    height: 29px; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.city{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120px;
+    color: #FFFFFF;
+}
+.temp{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 117px;
+    color: #FFFFFF;
+}
+.min-max{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.weather{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.date{  
+    padding: 5px;
+    margin: 17px 5px 5px 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #ffffff;
+}
